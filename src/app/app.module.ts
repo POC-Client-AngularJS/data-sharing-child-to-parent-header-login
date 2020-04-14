@@ -7,6 +7,8 @@ import { HelloComponent } from "./hello.component";
 import { LoginComponent } from "./child/login.component";
 import { HeaderComponent } from "./parent/header.component";
 
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
+
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [AppComponent, HelloComponent, LoginComponent, HeaderComponent],
